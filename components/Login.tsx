@@ -130,7 +130,7 @@ export default function LoginForm() {
         className="flex flex-col items-center h-[400px] gap-4 space-y-3 mt-28"
       >
         <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
-          <div className="z-10 fixed w-full flex-1 rounded-lg border bg-white px-6 pb-4 pt-8 shadow-md md:w-96 dark:bg-zinc-950">
+          <div className="z-10 fixed flex-1 rounded-lg border bg-white px-6 pb-4 pt-8 shadow-md md:w-96 dark:bg-zinc-950">
             <h1 className="z-10 mb-3 text-2xl font-bold">
               Please log in to continue.
             </h1>
