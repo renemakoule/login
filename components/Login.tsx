@@ -193,7 +193,7 @@ export default function LoginForm() {
                   className="absolute flex"
                   style={{ opacity: showText ? 0 : 1 }}
                 >
-                  <FaGoogle className="text-3xl" />
+                  <FaGoogle className="w-4 h-4" />
                   oogle
                 </motion.div>
                 <motion.span
@@ -221,8 +221,9 @@ export default function LoginForm() {
                       animate={{ scale: isHovered ? [1, 1.2, 0.9, 1.1, 1] : 1 }}
                       exit={{ scale: 0, opacity: 0 }}
                       transition={{ duration: 0.5 }}
+                      className='flex'
                     >
-                      <FaMagic className="text-3xl" />
+                      <FaMagic className="w-4 h-4" /> Magic
                     </motion.div>
                   )}
                 </AnimatePresence>
