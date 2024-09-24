@@ -127,7 +127,7 @@ export default function LoginForm() {
     <div className="flex flex-col items-center justify-center h-full">
       <form
         //action={dispatch}
-        className="flex flex-col items-center h-[400px] gap-4 space-y-3 mt-28"
+        className="flex flex-col items-center shadow-2xl h-[400px] gap-4 space-y-3 mt-28"
       >
         <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
           <div className="z-10 fixed flex-1 rounded-lg border bg-white px-6 pb-4 pt-8 shadow-md md:w-96 dark:bg-zinc-950">
@@ -137,7 +137,7 @@ export default function LoginForm() {
             <div className="w-full">
               <div>
                 <label
-                  className="mb-3 mt-5 block text-xs font-medium text-zinc-400"
+                  className="mb-3 mt-5 block text-xs font-medium"
                   htmlFor="email"
                 >
                   Email
@@ -155,7 +155,7 @@ export default function LoginForm() {
               </div>
               <div className="mt-4">
                 <label
-                  className="mb-3 mt-5 block text-xs font-medium text-zinc-400"
+                  className="mb-3 mt-5 block text-xs font-medium"
                   htmlFor="password"
                 >
                   Password
@@ -173,9 +173,7 @@ export default function LoginForm() {
                 </div>
               </div>
             </div>
-            <div className="z-30">
               <LoginButton />
-            </div>
             <BorderBeam size={250} duration={12} delay={9} />
 
             {/*************icon connect */}
